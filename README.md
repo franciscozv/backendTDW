@@ -1,7 +1,7 @@
 <h1>Backend Laravel TDW</h1>
 <h2>Nombre</h2>
-### nombre: Francisco Zambrano Valdés
-### carrera: Ingeniería de Ejecución en Computación e Informatica
+<p>nombre: Francisco Zambrano Valdés</p>
+<p>carrera: Ingeniería de Ejecución en Computación e Informatica</p>
 
 ## Perros
 
