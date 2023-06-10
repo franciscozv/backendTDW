@@ -20,9 +20,11 @@ class InteraccionController extends Controller
         }
     }
 
-    public function index()
+
+    public function show(string $id)
     {
-        $interacciones = Interaccion::all();
-        return response()->json($interacciones);
+        $interacciones = Interaccion::find($id);
+        return $interacciones;
+
     }
 }

@@ -1,7 +1,7 @@
 <?php
-
+namespace App\Http\controllers;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\controllers\CursoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,4 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
 
