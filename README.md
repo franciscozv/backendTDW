@@ -37,17 +37,17 @@
 
 ```json
 {
-"perro_interesado_id": 1,
-"perro_candidato_id": 2,
-"preferencia": "a"
+    "perro_interesado_id": 1,
+    "perro_candidato_id": 2,
+    "preferencia": "a"
 }
 ```
 <p>chaucha le dio aceptar a palmerita</p>
 
 ```json
 {
-"perro_interesado_id": 2,
-"perro_candidato_id": 1,
-"preferencia": "a"
+    "perro_interesado_id": 2,
+    "perro_candidato_id": 1,
+    "preferencia": "a"
 }
 ```
