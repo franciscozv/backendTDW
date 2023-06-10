@@ -1,6 +1,6 @@
-"# backendTDW"
-#nombre: Francisco Zambrano Valdés
-#carrera: Ingeniería de Ejecución en Computación e Informatica
+# backendTDW
+## nombre: Francisco Zambrano Valdés
+## carrera: Ingeniería de Ejecución en Computación e Informatica
 
 
 # URLS DE LA API
