@@ -24,25 +24,28 @@
     "descripcion": "descripcion de palmerita"
 }
 ```
-
-
+```json
 {
     "nombre": "chaucha",
     "foto_url": "https://github.com/franciscozv/backendTDW",
     "descripcion": "descripcion de chaucha"
 }
-##
+```
+
 <p>POST http://localhost:8000/api/interacciones</p>
-	
-   ####palmerita le dio aceptar a chaucha
-    {
-        "perro_interesado_id": 1,
-	    "perro_candidato_id": 2,
-	    "preferencia": "a"
-    }
-   ####chaucha le dio aceptar a palmerita
-    {
-	    "perro_interesado_id": 2,
-	    "perro_candidato_id": 1,
-	    "preferencia": "a"
-    }
+<p>palmerita le dio aceptar a chaucha</p>
+```json
+{
+    "perro_interesado_id": 1,
+	 "perro_candidato_id": 2,
+	"preferencia": "a"
+}
+````
+<p>chaucha le dio aceptar a palmerita</p>
+```json
+{
+	"perro_interesado_id": 2,
+	 "perro_candidato_id": 1,
+	 "preferencia": "a"
+}
+```
