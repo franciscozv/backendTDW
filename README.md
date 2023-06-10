@@ -1,20 +1,18 @@
 <h1>Backend Laravel TDW</h1>
-<h2>Nombre</h2>
 <p>nombre: Francisco Zambrano Valdés</p>
 <p>carrera: Ingeniería de Ejecución en Computación e Informatica</p>
 
-## Perros
+<h2>crud para api perros</h2>
 
-### post, getAll http://localhost:8000/api/perros
-### getOne, put, delete http://localhost:8000/api/perros/{id}
+<p>post, getAll http://localhost:8000/api/perros</p>
+<p>getOne, put, delete http://localhost:8000/api/perros/{id}</p>
 
-## Interacciones
-### post, get http://localhost:8000/api/interacciones
-### getOne http://localhost:8000/api/interacciones/{id}
+<h2>Interacciones</h2>
+<p>post, get http://localhost:8000/api/interacciones</p>
+<p>getOne http://localhost:8000/api/interacciones/{id}</p>
 
-
-## Obtener los perros aceptados y rechazados dado el id de un perro
-### http://localhost:8000/api/perros/{id}/interacciones
+<h2>Obtener los perros aceptados y rechazados dado el id de un perro</h2>
+<p>get http://localhost:8000/api/perros/{id}/interacciones</p>
 
 ## json de ejemplos
 ### post http://localhost:8000/api/perros
