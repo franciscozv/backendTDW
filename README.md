@@ -34,6 +34,7 @@
 
 <p>POST http://localhost:8000/api/interacciones</p>
 <p>palmerita le dio aceptar a chaucha</p>
+
 ```json
 {
     "perro_interesado_id": 1,
@@ -42,6 +43,7 @@
 }
 ```
 <p>chaucha le dio aceptar a palmerita</p>
+
 ```json
 
 	"perro_interesado_id": 2,
