@@ -16,13 +16,13 @@
 
 <h2>json de ejemplos</h2>
 <p>POST http://localhost:8000/api/perros</p>
-```
+´´´json
 {
     "nombre": "palmerita", 
     "foto_url": "https://github.com/franciscozv/backendTDW", 
     "descripcion": "descripcion de palmerita"
 }
-```
+´´´
 {
     "nombre": "chaucha",
     "foto_url": "https://github.com/franciscozv/backendTDW",
