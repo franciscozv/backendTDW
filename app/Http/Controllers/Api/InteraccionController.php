@@ -6,9 +6,17 @@ use Illuminate\Http\Request;
 use App\Models\Interaccion;
 use App\Http\Requests\InteraccionRequest;
 use Illuminate\Validation\ValidationException;
+use Illuminate\Http\Response;
+use Spatie\FlareClient\Http\Response as HttpResponse;
 
 class InteraccionController extends Controller
 {
+    public function index()
+    {
+        $interaccion = Interaccion::all();
+        return response()->json(["interaccion" => $interaccion], Response::HTTP_OK);
+    }
+
     public function store(InteraccionRequest $request)
     {
         try {
@@ -19,7 +27,6 @@ class InteraccionController extends Controller
             return response()->json(['errors' => $exception->errors()], 422);
         }
     }
-
 
     public function show(string $id)
     {
