@@ -40,7 +40,7 @@
 	 "perro_candidato_id": 2,
 	"preferencia": "a"
 }
-````
+```
 <p>chaucha le dio aceptar a palmerita</p>
 ```json
 {
