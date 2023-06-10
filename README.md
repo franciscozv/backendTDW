@@ -14,8 +14,8 @@
 <h2>Obtener los perros aceptados y rechazados dado el id de un perro</h2>
 <p>get http://localhost:8000/api/perros/{id}/interacciones</p>
 
-## json de ejemplos
-### post http://localhost:8000/api/perros
+<h2>json de ejemplos</h2>
+<p>POST http://localhost:8000/api/perros</p>
 {
     "nombre": "palmerita",
     "foto_url": "https://github.com/franciscozv/backendTDW",
@@ -28,7 +28,7 @@
     "descripcion": "descripcion de chaucha"
 }
 ##
-### post http://localhost:8000/api/interacciones
+<p>POST http://localhost:8000/api/interacciones</p>
 	
    ####palmerita le dio aceptar a chaucha
     {
